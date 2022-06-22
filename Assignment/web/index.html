@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Messages</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function loginRedirect() {
+                window.location.href = "login";
+            }
+            function signupRedirect() {
+                window.location.href = "register";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to Messages!</h1>
+        <p>Start by logging in to your account or signing up for a new account<br/>It's free!</p>
+        <button onclick="loginRedirect()">Login</button><br/>
+        <button onclick="signupRedirect()">Signup</button><br/>
+    </body>
+</html>
